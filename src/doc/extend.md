@@ -603,7 +603,7 @@ and including:
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
 ```
 
-in the `<head>` of the page is enough. If you use art-direction and/or
+in the `<head>` of the page is enough. If you use art-direction.ts and/or
 want to have different content for each device, you can add more touch
 icons as written above.
 
