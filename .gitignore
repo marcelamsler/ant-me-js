@@ -7,3 +7,5 @@ node_modules
 
 src/js/**/*.js
 src/js/**/*.js.map
+
+src/bundle.js
