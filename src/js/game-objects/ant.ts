@@ -1,7 +1,11 @@
 import {Direction} from "../commons/direction";
 import {Position} from "../commons/position";
+import {Nest} from "../game-objects/nest";
+import {Sugar} from "./sugar";
 
 export class Ant {
+
+    nest: Nest;
 
     position: Position;
 
@@ -25,5 +29,9 @@ export class Ant {
             this.facing_direction = Direction.south;
             return;
         }
+    }
+
+    takeSugar(sugar : Sugar){
+
     }
 }
