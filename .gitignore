@@ -1,2 +1,6 @@
 archive
 node_modules
+.idea
+.idea/atlassian-ide-plugin.xml
+.idea/vcs.xml
+.idea/workspace.xml
