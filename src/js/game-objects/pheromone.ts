@@ -1,5 +1,7 @@
+import {Position} from "../commons/position";
+
 export class Pheromone{
-    center: number;
+    center: Position;
     radius: number;
 
     leavedMessage: any;

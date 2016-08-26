@@ -1,7 +1,8 @@
+import {Position} from "../commons/position";
+
 export class Sugar {
 
-    x: number ;
-    y: number ;
+    position: Position;
 
     size: number = 100;
 }
