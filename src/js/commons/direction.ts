@@ -3,4 +3,5 @@ export enum Direction{
     east,
     south,
     west
+
 }
