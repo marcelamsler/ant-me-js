@@ -8,4 +8,20 @@ export class Position{
         this.y = 0;
     }
 
+    setX(x : number){
+        this.x = x;
+    }
+
+    setY(y : number){
+        this.y = y;
+    }
+
+    getX(){
+        return this.x;
+    }
+
+    getY(){
+        return this.y;
+    }
+
 }
