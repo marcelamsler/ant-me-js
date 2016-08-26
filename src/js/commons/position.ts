@@ -8,9 +8,4 @@ export class Position{
         this.y = 0;
     }
 
-    constructor(public x, public y){
-        this.x = x;
-        this.y = y;
-    }
-
 }

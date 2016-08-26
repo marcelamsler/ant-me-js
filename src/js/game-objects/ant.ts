@@ -1,4 +1,5 @@
 import {Direction} from "../commons/direction";
+import {DirectionUtils} from "../commons/directionUtils.ts";
 import {Position} from "../commons/position";
 import {Nest} from "../game-objects/nest";
 import {Sugar} from "./sugar";
@@ -17,18 +18,11 @@ export class Ant {
     }
 
     turnRight() {
-
+        this.facing_direction = DirectionUtils.turnRight(this.facing_direction);
     }
 
     turnLeft(){
-        if(this.facing_direction == Direction.north){
-            this.facing_direction = Direction.west;
-            return;
-        }
-        if(this.facing_direction == Direction.west){
-            this.facing_direction = Direction.south;
-            return;
-        }
+        this.facing_direction = DirectionUtils.turnLeft(this.facing_direction);
     }
 
     takeSugar(sugar : Sugar){
