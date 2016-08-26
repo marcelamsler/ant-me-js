@@ -8,5 +8,4 @@ export class Ant {
     facing_direction: Direction;
 
 
-
 }
