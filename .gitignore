@@ -4,3 +4,6 @@ node_modules
 .idea/atlassian-ide-plugin.xml
 .idea/vcs.xml
 .idea/workspace.xml
+
+src/js/**/*.js
+src/js/**/*.js.map
